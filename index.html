@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <meta name="description" content="Professional portfolio showcasing my projects, skills, and experience." />
+  <meta name="author" content="Your Name" />
+  
+  <!-- Add Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo">Portfolio</a>
+      
+      <button class="mobile-menu-button" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="download-cv-button">Download CV</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Your Name</h1>
+            <div class="typing-container">
+              <h2 class="typing-text">Creative Developer</h2>
+            </div>
+            <p class="hero-description">
+              I craft responsive websites where technologies meet creativity. Let's work together to create something amazing.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="button primary-button">Contact Me</a>
+              <a href="#projects" class="button outline-button">View Projects</a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <div class="profile-photo">
+              <div class="photo-placeholder">Your Photo</div>
+              <div class="experience-badge">
+                <span class="years">5+</span>
+                <span class="text">Years of Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span>Scroll Down</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M19 12l-7 7-7-7" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-container">
+              <div class="image-placeholder">About Image</div>
+            </div>
+            <div class="accent-square top-left"></div>
+            <div class="accent-square bottom-right"></div>
+          </div>
+
+          <div class="about-text">
+            <h3 class="about-title">I'm a passionate <span class="highlight">Web Developer</span> from San Francisco</h3>
+            <p class="about-description">
+              Hello there! I'm a web developer with a passion for creating beautiful, responsive, and user-friendly websites.
+            </p>
+            <p class="about-description">
+              My journey in web development started 5 years ago, and since then, I've worked on numerous projects that have helped me refine my skills.
+            </p>
+
+            <div class="about-details">
+              <div class="detail-item">
+                <p class="detail-label">Name:</p>
+                <p class="detail-value">Your Name</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">Email:</p>
+                <p class="detail-value">your.email@example.com</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">From:</p>
+                <p class="detail-value">San Francisco, CA</p>
+              </div>
+              <div class="detail-item">
+                <p class="detail-label">Freelance:</p>
+                <p class="detail-value">Available</p>
+              </div>
+            </div>
+
+            <button class="download-cv-button">
+              Download CV
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Here are some of my skills</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3 class="skill-category">Programming Languages</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML & CSS</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" data-percent="80"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3 class="skill-category">Tools & Software</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Figma</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" data-percent="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Here's a selection of my recent work</p>
+        </div>
+
+        <div class="project-filters">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="web">Web Development</button>
+          <button class="filter-button" data-filter="app">App Development</button>
+          <button class="filter-button" data-filter="design">UI/UX Design</button>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="placeholder.svg" alt="E-Commerce Website">
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+              </div>
+              <h3 class="project-title">E-Commerce Website</h3>
+              <p class="project-description">A fully responsive e-commerce platform with product filtering, cart functionality, and checkout process.</p>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="app">
+            <div class="project-image">
+              <img src="placeholder.svg" alt="Task Management App">
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Firebase</span>
+              </div>
+              <h3 class="project-title">Task Management App</h3>
+              <p class="project-description">A productivity app that helps users organize tasks with features like drag-and-drop.</p>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Client <span class="gradient-text">Testimonials</span></h2>
+          <p class="section-subtitle">What others say about my work</p>
+        </div>
+
+        <div class="testimonial-slider">
+          <div class="testimonial-container">
+            <div class="testimonial active" data-index="0">
+              <div class="testimonial-content">
+                <div class="testimonial-image">
+                  <img src="placeholder.svg" alt="Jane Smith">
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">"Working with this developer was a fantastic experience. They delivered the project on time with exceptional quality."</p>
+                  <h4 class="testimonial-name">Jane Smith</h4>
+                  <p class="testimonial-position">Project Manager at Tech Solutions</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial" data-index="1">
+              <div class="testimonial-content">
+                <div class="testimonial-image">
+                  <img src="placeholder.svg" alt="John Doe">
+                </div>
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">"I've worked with many developers over the years, but few have impressed me as much as this one."</p>
+                  <h4 class="testimonial-name">John Doe</h4>
+                  <p class="testimonial-position">CEO at StartUp Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-controls">
+            <button class="prev-button" aria-label="Previous testimonial">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <div class="testimonial-dots">
+              <button class="dot active" data-index="0" aria-label="Go to testimonial 1"></button>
+              <button class="dot" data-index="1" aria-label="Go to testimonial 2"></button>
+            </div>
+            <button class="next-button" aria-label="Next testimonial">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Let's work together on your next project</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Contact Information</h3>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+1 (123) 456-7890</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>your.email@example.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>San Francisco, CA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <h3 class="contact-subtitle">Send Me a Message</h3>
+            <form id="contactForm" class="contact-form">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#home" class="logo">Portfolio</a>
+        </div>
+        
+        <div class="footer-links">
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-copyright">
+          <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
