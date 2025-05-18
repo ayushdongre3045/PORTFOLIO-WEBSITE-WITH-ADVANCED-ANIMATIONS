@@ -20,3 +20,4 @@ Optimize the website for performance and accessibility.Deliverables:
 A fully functional, deployed portfolio website.
 Source code repository (GitHub or similar).
 Documentation explaining the tools used and animation techniques implemented.
+*OUTPUT*![Image](https://github.com/user-attachments/assets/7d941167-8637-40c0-9fda-537b5c9bcdf7)
